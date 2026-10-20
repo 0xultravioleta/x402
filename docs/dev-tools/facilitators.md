@@ -34,5 +34,6 @@ If you are evaluating a mainnet EVM route, decide on your production facilitator
 | [Polygon Facilitator](https://docs.polygon.technology/payment-services/agentic-payments/x402/intro/) | Production-grade x402 facilitator for Polygon Mainnet and Amoy testnet |
 | [Solvador](https://solvador.com) | Multi-network facilitator with broad mainnet coverage across EVM plus Solana and NEAR, supporting multiple schemes and extensions |
 | [T54 XRPL Facilitator](https://xrpl-x402.t54.ai) | Production-grade x402 facilitator for the XRP Ledger, covering mainnet and testnet with XRP and RLUSD support |
+| [Ultravioleta DAO Facilitator](https://facilitator.ultravioletadao.xyz) | Free, open-source Rust facilitator for EVM chains, Solana, Fogo, NEAR, Stellar, Algorand, Sui, XRPL and Hedera, with `exact` on every network and `upto` (Permit2) on EVM. No API key or account required |
 
 For testnet development, the [x402.org facilitator](/core-concepts/network-and-token-support#x402org-facilitator) requires no setup. It is not intended for mainnet routes; use a production facilitator, a self-hosted facilitator, or [self-facilitation](https://github.com/x402-foundation/x402/tree/main/examples/typescript/servers/self-facilitation) for production networks.
